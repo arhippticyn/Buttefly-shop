@@ -27,40 +27,25 @@
 
         <div class="main-wrapper">
             <main class="mainb">
-                <div class="header-katalog">
-                    <button class="header-katalog-cap">Catalogue</button>
-                    <div class="header-katalog-items">
-                    <a class="header-katalog-item" href="/blade.html">Blade</a>
-                    <a class="header-katalog-item" href="/rubber.html">Rubber</a>
-                    <a class="header-katalog-item" href="/balls.html">Balls</a> 
-                    </div>
-                </div>
-                <ul class="ul">
-                    <li class="card">
-                        <img src="/image/thumb_butterfly-dignics-05.jpg" alt="" class="card__img">
-                        <h2 class="card__title">BUTTERFLY Dignics 05</h2>
-                        <p class="card__price">80 EUR</p>
-                        <button class="card__btn"><a href="/buy.html">buy</a></button>
-        
-                    <li class="card">
-                            <img src="/image/large_tibhar-hybrid-k3.jpg" alt="" class="card__img">
-                            <h2 class="card__title">TIBHAR Hybrid K3</h2>
-                            <p class="card__price">65 EUR</p>
-                            <button class="card__btn"><a href="/buy.html">buy</a></button>
-                    </li>
-                    <li class="card">
-                            <img src="/image/mid_tibhar-hybrid-mk-pro.jpg" alt="" class="card__img">
-                            <h2 class="card__title">TIBHAR Hybrid MK Pro</h2>
-                            <p class="card__price">65 EUR</p>
-                            <button class="card__btn"><a href="/buy.html">buy</a></button>
-                    </li>
-                    <li class="card">
-                            <img src="/image/mid_butterfly-glayzer.jpg" alt="" class="card__img">
-                            <h2 class="card__title">BUTTERFLY Glayzer</h2>
-                            <p class="card__price">45 EUR</p>
-                            <button class="card__btn"><a href="/buy.html">buy</a></button>
-                    </li>
-                    </ul>
+                  <h1 class="title">Покупка</h1>
+    <form class="forms">
+        <label for="">Enter login</label>
+        <input id="login" placeholder="you can write" type="text">
+
+        <label for="">Enter Email</label>
+        <input id="email" placeholder="you can write" type="email">
+
+        <label for="">Enter number card</label>
+        <input id="card" required type="number" placeholder="0000 0000 0000 0000" maxlength="16">
+
+        <label for="">Data</label>
+        <input type="date" name="" id="">
+
+        <label for="">CVV</label>
+        <input placeholder="CVV" type="number" maxlength="3">
+
+        <button class="forms-btn" type="submit">Pay</button>
+    </form>  
             </main>
         </div>
 
@@ -76,6 +61,7 @@
             </footer>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="/index.js"></script>
 </body>
 </html>
