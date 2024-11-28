@@ -1,10 +1,6 @@
 const catItems = document.querySelector('.header-katalog-items')
 const catBtn = document.querySelector('.header-katalog-cap')
-const payForm = document.querySelector('.forms')
-const login = document.getElementById('login')
-const email = document.getElementById('email')
-const card = document.getElementById('card')
-const loader = document.querySelector('.spinner-border')
+
 
 catBtn.addEventListener('click', () => {
     catItems.classList.toggle('show')
